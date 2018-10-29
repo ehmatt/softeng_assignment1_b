@@ -1,0 +1,20 @@
+<project>
+	<groupId>ie.nuigalway.matthew</groupId>
+	<artifactId>Assignment_1_Part_B</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<modelVersion>4.0.0</modelVersion>
+
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+<!-- 	<dependency>
+		<groupId>com.github.ehmatt</groupId>
+		<artifactId>Repo</artifactId>
+		<version>Tag</version>
+	</dependency> -->
+
+</project>
