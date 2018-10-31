@@ -4,9 +4,10 @@ import ehmatt.softeng_assignment1;
 
 public class CreateStudent {
 
+	public ArrayList<Module> modules = new ArrayList<Module>();
+	public ArrayList<CourseProgramme> courses = new ArrayList<CourseProgramme>();
+
 	public static void main(){
-		public ArrayList<Module> modules = new ArrayList<Module>();
-		public ArrayList<CourseProgramme> courses = new ArrayList<CourseProgramme>();
 
 		Student student_1 = new Student("Matt Moran", "22", new DateTime("02/09/1996"), "15445226");
 		Student student_2 = new Student("Micheal Lynch", "20", new DateTime("16/11/1997"), "12345678");
@@ -56,12 +57,12 @@ public class CreateStudent {
 		for (int x = 0; x < students.size(); x++){
 			System.out.println(students.get(x).getName());
 
-			System.out.println("Course: ")
+			System.out.println("Course: ");
 			for(int y = 0; y < students.get(y).getCourses.size(); y++){
 				System.out.println(students.get(y).getCourses().getName());
 			}
 
-			System.out.println("Username: ")
+			System.out.println("Username: ");
 			for(int z = 0; z < students.size(); z++){
 				System.out.println(students.get(z).getUsername());
 			}
